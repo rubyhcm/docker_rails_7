@@ -13,5 +13,5 @@ WORKDIR /opt/app
 # Run a shell
 CMD ["/bin/sh"]
 
-#docker build -t rails-toolbox -f Dockerfile.rails .  ==> to build image
+#docker build -t rails-toolbox -f Dockerfile .  ==> to build image
 #docker run -it -v $PWD:/opt/app rails-toolbox rails new --skip-bundle drkiq ==> to create project with name is 'drkiq'
